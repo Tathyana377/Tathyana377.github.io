@@ -1,0 +1,123 @@
+﻿<html>
+	<head>
+		<title>Prediction of physical and chemical properties based on the known structure of a protein molecule</title>
+				
+	</head>
+	<body>
+		<h1>
+		Prediction of physical and chemical properties based on the known structure of a protein molecule<br>
+		Input data: protein structure<br>
+		https://tathyana377.github.io/struct_protein<br>
+		Nauka76@yandex.ru
+		</h1>
+		
+		<table>
+		<table border="1">
+			<tr>
+				<th>Model/neuroset</th>
+				<th>Score</th>
+				<th>Tests</th>
+			</tr>
+			<tr>
+				<td>A model predicting the value of the isoelectric point of protein (Output: isoelectric point of protein)</td>
+				<td>score: 100%</td>
+				<td>
+				<ul>
+				<li>mean_squared_error**(1/2): 1.00</li>
+				<li>mean_absolute_percentage_error: 0.00</li>
+				<li>mean_absolute_error: 0.75</li>
+				<li>mean_squared_error: 1.01</li>
+				<li>max_error: 1.42</li>
+				<li>d2_absolute_error_score: 0.98</li>
+				</ul>
+				</td>
+			</tr>
+			<tr>
+				<td>A model predicting the melting temperature of protein (Output: melting temperature of protein)</td>
+				<td>score: 97%</td>
+				<td>
+				<ul>
+				<li>mean_squared_error**(1/2): 3.89</li>
+				<li>mean_absolute_percentage_error: 0.01</li>
+				<li>mean_absolute_error: 3.64</li>
+				<li>mean_squared_error: 15.12</li>
+				<li>max_error: 5.0</li>
+				<li>d2_absolute_error_score: 0.84</li>
+				</ul>
+				</td>
+			</tr>
+			<tr>
+				<td>A model predicting protein solubility in water (Output: protein solubility in water)</td>
+				<td>score: 97%</td>
+				<td>
+				<ul>
+				<li>mean_squared_error**(1/2): 8.6</li>
+				<li>mean_absolute_percentage_error: 0.01</li>
+				<li>mean_absolute_error: 6.66</li>
+				<li>mean_squared_error: 73.96</li>
+				<li>max_error: 12.1</li>
+				<li>d2_absolute_error_score: 0.87</li>
+				</ul>
+				</td>
+			</tr>
+			<tr>
+				<td>Prediction of the value of the dissociation constant of carboxylic groups</td>
+				<td>score: 98%</td>
+				<td>
+				<ul>
+				<li>mean_squared_error**(1/2): 0.32</li>
+				<li>mean_absolute_percentage_error: 0.00</li>
+				<li>mean_absolute_error: 0.3</li>
+				<li>mean_squared_error: 0.1</li>
+				<li>max_error: 0.4</li>
+				<li>d2_absolute_error_score: 0.88</li>
+				</ul>
+				</td>
+			</tr>
+			<tr>
+				<td>Predicting of the value of the dissociation constant of amino groups</td>
+				<td>score: 100%</td>
+				<td>
+				<ul>
+				<li>mean_squared_error**(1/2): 0.00</li>
+				<li>mean_absolute_percentage_error: 0.00</li>
+				<li>mean_absolute_error: 0.00</li>
+				<li>mean_squared_error: 0.00</li>
+				<li>max_error: 0.00</li>
+				<li>d2_absolute_error_score: 1.00</li>
+				</ul>
+				</td>
+			</tr>
+			<tr>
+				<td>A model predicting the bond length between atoms (Output: bond length between atoms)</td>
+				<td>score: 92%</td>
+				<td>
+				<ul>
+				<li>mean_squared_error**(1/2): 3.34</li>
+				<li>mean_absolute_percentage_error: 0.02</li>
+				<li>mean_absolute_error: 3.28</li>
+				<li>mean_squared_error: 11.13</li>
+				<li>max_error: 3.88</li>
+				<li>d2_absolute_error_score: 0.73</li>
+				</ul>
+				</td>
+			</tr>
+			<tr>
+				<td>A model predicting the bond energy between atoms (Output: bond energy between atoms)</td>
+				<td>score: 98%</td>
+				<td>
+				<ul>
+				<li>mean_squared_error**(1/2): 7.42</li>
+				<li>mean_absolute_percentage_error: 0.01</li>
+				<li>mean_absolute_error: 6.34</li>
+				<li>mean_squared_error: 55.03</li>
+				<li>max_error: 9.69</li>
+				<li>d2_absolute_error_score: 0.82</li>
+				</ul>
+				</td>
+			</tr>
+				
+		</table>
+			
+	</body>
+</html>
